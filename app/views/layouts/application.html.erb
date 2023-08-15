@@ -11,6 +11,11 @@
   </head>
 
   <body>
+  <div class=navbar-lewagon style="display:flex; justify-content:space-between">
+  <%= image_tag "movie-icon.png", alt: "Le Wagon", width: 50 %>
+  <%= link_to "My List", root_path, style: "color:black; text-decoration:none; margin-right:5px; display:flex; align-items:center;"%>
+  </div>
+
     <%= yield %>
   </body>
 </html>
